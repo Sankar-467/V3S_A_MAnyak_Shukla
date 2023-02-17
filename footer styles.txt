@@ -1,0 +1,75 @@
+.foot{
+display:flex !important;
+justify-content:center !important;
+}
+.fleft{
+justify-content:left !important;
+display:flex !important;
+color:white !important;
+}
+fright{
+justify-content:right !important;
+display:flex !important;
+color:white !important;
+}
+.fcent{
+justify-content:center !important;
+display:flex !important;
+color:white !important;
+}
+a{
+text-decoration:none !important;
+color:white !important;
+}
+.container-flexed{
+display: flex;
+flex-wrap: wrap;
+}
+ul{
+list-style-type: none;
+}
+li:hover{
+color:red !important;
+}
+.footer{
+width:100%;
+height:152px;
+background-color:rgb(33 33 33) !important;
+}
+
+
+
+
+<div class="footer">
+<div class="foot">
+<a href="mailto:v3s.b.manyak@gmail.com"> <img style="padding:5px;" src="./mail.png" height="30" width="30" alt="mail"/> </a>
+<a target="_blank" href="https://www.facebook.com/profile.php?id=100089854283664"> <img style="padding:5px;" src="./fb.png" height="30" width="30" alt="mail"/> </a> 
+<a target="_blank" href="https://www.youtube.com/channel/UC1t7WFRY3hRmnppe2CAtQFw"> <img style="padding:5px;" src="./youtube.png" height="30" width="30" alt="mail"/> </a> 
+</div>
+<div class="row">
+<div class="fleft col-2">
+<ul>
+<li> <a href="#"> careers </a> </li>
+<li> <a href="#"> about us </a> </li>
+<li> <a href="#">  contact us </a> </li>
+</ul>
+</div>
+<div class=" fcent col-8">
+<ul>
+<li> <a href="#">  opportunities </a></li>
+<li> <a href="#">  donors </a> </li>
+<li> <a href="#"> help seekers </a> </li>
+</ul>
+</div>
+<div class="fleft col-2">
+<ul>
+<li> <a href="#">  organizations </a></li>
+<li> <a href="#">  securities </a></li>
+<li>  <a href="#"> privacy </a></li>
+</ul>
+</div>
+</div>
+
+<div style="padding-bottom:0px !important; border-bottom:0px !important; margin-bottom:0px !important; color:pink;"><b> © Website is developed and maintained by V3S_Team_A_Manyak_Shukla </b>
+</div>
+</div>
